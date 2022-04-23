@@ -1,0 +1,80 @@
+body{
+	font: 100% bold;
+	background-image:url('supra.jpg') ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#top img{
+	width: 500px;
+}
+#top input{
+	float: right;
+	background-color: black;
+	border: 0px;
+	width: 300px;
+	height: 10px;
+	opacity: 50%;
+	border-radius: 25px;
+ 	padding: 20px;
+ }
+#menu{
+	width: 270px;
+	float: left;
+	background-color: black;
+	opacity: 50%;
+	height: 400px;
+}
+#menulist{
+	margin: 0px;
+	padding: 10px;
+}
+.menuitem{
+	background-color: gray;
+	border: 5px solid;
+	border-radius: 25px;
+  	padding: 20px;
+  	width: 200px;
+  	height: 50px;
+  	text-align: center;
+}
+.menuitem:hover{
+	background-color: #ffffff;
+}
+.menuitem:first-child {
+   background-color:#04AA6D;
+   color: white;
+   font-weight:bold;
+   text-align: center;
+}
+#gip{
+	float: right;
+	padding-top:100px ;
+	padding-right:50px;
+}
+h1,p{
+	margin: 3px;
+	padding: 0px;
+}
+h1{
+	font-family: futura;
+	font-size: 100px;
+	color: white;
+	width: 820px;
+	float: right;
+}
+
+h2{
+	font: sans-serif;
+	color: white;
+	font-size: 25px;
+}
+#join{
+	font-family: futura;
+	border-radius: 25px;
+  	background: #ffff;
+  	padding: 20px;
+  	width: 70px;
+  	height: 15px;
+  	text-align: center;
+}
